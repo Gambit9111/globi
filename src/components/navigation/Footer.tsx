@@ -14,7 +14,7 @@ const Footer: React.FC<FooterProps> = () => {
           <Link href="/" className="mt-4">
             <Image src={globi} width={150} alt="logo" />
           </Link>
-          <svg
+          {/* <svg
             width="24"
             height="24"
             viewBox="0 0 32 34"
@@ -69,27 +69,27 @@ const Footer: React.FC<FooterProps> = () => {
               d="M28.0904 0.5C30.2482 0.5 32 2.28721 32 4.48847V29.1569C32 31.3582 30.2481 33.1454 28.0904 33.1454H3.90963C1.75188 33.1454 0 31.3582 0 29.1569V4.48847C0 2.28721 1.75181 0.5 3.90963 0.5L28.0904 0.5ZM10.0288 27.4884V13.0966H5.33881V27.4884H10.0288ZM26.9375 27.4884V19.2353C26.9375 14.8146 24.6239 12.7581 21.5387 12.7581C19.0509 12.7581 17.9366 14.1539 17.3126 15.1342V13.0966H12.6238C12.686 14.4471 12.6238 27.4884 12.6238 27.4884H17.3126V19.451C17.3126 19.0208 17.3429 18.5908 17.4672 18.2833C17.8056 17.4241 18.5776 16.534 19.8731 16.534C21.569 16.534 22.2485 17.8543 22.2485 19.7882V27.4884H26.9375ZM7.7155 6.15696C6.11087 6.15696 5.0625 7.23317 5.0625 8.64375C5.0625 10.0247 6.079 11.1305 7.65344 11.1305H7.68369C9.319 11.1305 10.3369 10.0247 10.3369 8.64375C10.3066 7.23515 9.32187 6.16002 7.7155 6.15696Z"
               fill="#F6F2EC"
             />
-          </svg>
+          </svg> */}
         </div>
         <div className="space-y-8">
           <div className="flex w-full flex-col px-8 pt-2 font-light uppercase">
             <h1 className="pb-2 text-color-white/80">Contact</h1>
             <div className="space-y-1 text-sm tracking-normal text-color-white/50">
               <h2>Customer Service</h2>
-              <h2 className="text-color-white/80">+31 6 25 30 66 45</h2>
-              <h2 className="lowercase text-color-white/80">work@globi.nl</h2>
               <h2>Careers</h2>
               <h2>Advertise with us</h2>
+              <h2 className="text-color-white/80">84 165 760 155</h2>
+              <h2 className="lowercase text-color-white/80">globicareers.info@gmail.com</h2>
             </div>
           </div>
-          <div className="flex w-full flex-col px-8 font-light uppercase">
+          {/* <div className="flex w-full flex-col px-8 font-light uppercase">
             <h1 className="pb-2 text-color-white/80">Address</h1>
             <div className="space-y-1 text-sm tracking-normal text-color-white/50">
               <h2>Bredasebaan 14</h2>
               <h2>4744 RZ bosschenhoofd</h2>
               <h2>Netherlands</h2>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <p className="ml-6 p-1 text-center text-[0.6rem] font-medium uppercase tracking-wider text-color-yellow/30">

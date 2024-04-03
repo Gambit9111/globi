@@ -33,7 +33,7 @@ const Vacancies: NextPage = () => {
         <div className="flex min-h-screen flex-col items-center gap-4">
           <h1 className="gradient-text mt-12 pr-28 text-3xl font-bold uppercase tracking-tighter">Current Vacancies</h1>
           <p>
-            Explore exciting job opportunities at Engnr. Join us and shape the
+            Explore exciting job opportunities at Globi. Join us and shape the
             future of work.
           </p>
           <div>Loading...</div>
@@ -48,7 +48,7 @@ const Vacancies: NextPage = () => {
         <div className="flex min-h-screen flex-col items-center gap-4">
           <h1 className="gradient-text mt-12 pr-28 text-3xl font-bold uppercase tracking-tighter"></h1>
           <p>
-            Explore exciting job opportunities at Engnr. Join us and shape the
+            Explore exciting job opportunities at Globi. Join us and shape the
             future of work.
           </p>
           <div>Error occurred: {error.message}</div>
@@ -61,7 +61,7 @@ const Vacancies: NextPage = () => {
       <div className="flex min-h-screen flex-col items-center gap-4">
         <h1 className="gradient-text mt-12 pr-28 text-3xl font-bold uppercase tracking-tighter">Current Vacancies</h1>
         <p>
-          Explore exciting job opportunities at Engnr. Join us and shape the
+          Explore exciting job opportunities at Globi. Join us and shape the
           future of work.
         </p>
         {vacancies.map((vacancy: Vacancy) => (
