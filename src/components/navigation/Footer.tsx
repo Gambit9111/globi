@@ -78,7 +78,7 @@ const Footer: React.FC<FooterProps> = () => {
               <h2>Customer Service</h2>
               <h2>Careers</h2>
               <h2>Advertise with us</h2>
-              <h2 className="text-color-white/80">84 165 760 155</h2>
+              <h2 className="text-color-white/80">+370 65 760 155</h2>
               <h2 className="lowercase text-color-white/80">globicareers.info@gmail.com</h2>
             </div>
           </div>
