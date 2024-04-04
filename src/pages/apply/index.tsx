@@ -19,7 +19,7 @@ const Page: NextPage = () => {
         <section>
           <h2 className="text-2xl mt-8 font-medium tracking-tighter">You can talk directly to one of our agents</h2>
           <p className='mt-2 tracking-tight'>
-            If you want to discuss your application or have any questions, please call us at <span className="text-yellow-300">84 165 760 155</span>.
+            If you want to discuss your application or have any questions, please call us at <span className="text-yellow-300">+370 65 760 155</span>.
           </p>
         </section>
       </div>

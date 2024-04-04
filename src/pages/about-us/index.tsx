@@ -32,7 +32,7 @@ const AboutUs: React.FC = () => (
       <section>
         <h2 className="text-2xl mt-8 font-medium tracking-tighter">Contact Us</h2>
         <p className='mt-2 tracking-tight'>
-          Interested in learning more about our services? Contact us at <span className="text-yellow-300">globicareers.info@gmail.com or call us at 84 165 760 155.</span> We look forward to working with you!
+          Interested in learning more about our services? Contact us at <span className="text-yellow-300">globicareers.info@gmail.com or call us at +370 65 760 155.</span> We look forward to working with you!
         </p>
       </section>
     </div>
